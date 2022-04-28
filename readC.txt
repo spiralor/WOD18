@@ -1,0 +1,36 @@
+Description of programs wodFOR.f, wodC.c, and executable
+wodC.exe
+-------------------------------------------------------------
+
+wodFOR.f is a FORTRAN program designed as an example on how to read
+the World Ocean Database (WOD) native format data. wodC.c is
+its equivalent program in C language.  wodC.exe is an executable
+compatible with Microsoft operating systems.
+
+The programs prompts the user to input a WOD native format
+data file to read and number of casts to print out.
+ wodFOR prints out to the screen, wodC to a user named file, 
+all variables included in all desired casts from the input
+WOD native format file in a easily readable form. 
+
+This main programs(wodFOR,wodC) calls subroutines to read and load into arrays
+the WOD data and passed back to the main program. The program contains
+comments to help the user understand or modify the code according to
+specific needs.
+
+wodFOR.f has been tested using a Linux operating system
+using a GNU g77 compiler.   The program has also been tested
+under MS Windows 2000 professional using MS Windows FORTRAN Power Station 4.0
+
+wodC.c has been tested using a Linux operating system using a
+GNU gcc compiler.  wodC.exe was compiled using djgpp setup of
+GNU gcc compiler on a Microsoft operating system.
+
+The GNU compilers are freeware.  Please see http://gcc.gnu.org/
+djgpp is also freeware http://www.delorie.com/djgpp/
+The djgpp version of the g77 compiler for Microsoft operating systems
+was downloaded from http://www.engmath.dal.ca/courses/djgpp/index.html
+
+Comments and suggestions for improving these programs would be appreciated.
+Updates to the World Ocean Data data and to this program will be posted
+in the NODC/OCL web site at http://www.nodc.noaa.gov
